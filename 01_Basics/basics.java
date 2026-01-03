@@ -19,7 +19,7 @@ public class basics {
         String fullName = sc.nextLine();
         System.out.println("My full name is: " + fullName);
 
-        sc.close(); // we close the scanner object after use to avoid memory leaks
+        sc.close(); // we close the scanner object after use to avoid memory leaks.
 
         /*
         list of input methods in java:

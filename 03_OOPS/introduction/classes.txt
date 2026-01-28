@@ -39,7 +39,7 @@ This is done in the interest of efficiency.
 It is important to understand that new allocates memory for an object during run time.
 
 Box b1 = new Box();
-Box b2 = b1;
+Box b2 = b  1;
 b1 and b2 will both refer to the same object. The assignment of b1 to b2 did not allocate any memory or copy any part
 of the original object. It simply makes b2 refer to the same object as does b1. Thus, any changes made to the object
 through b2 will affect the object to which b1 is referring, since they are the same object.
